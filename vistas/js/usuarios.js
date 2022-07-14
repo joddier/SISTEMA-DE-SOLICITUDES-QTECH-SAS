@@ -23,7 +23,7 @@ if(imagen["type"] != "image/jpeg" && imagen["type"] != "image/png"){
 
     swal({
             title: "Error al subir la imagen",
-            text: "¡La imagen debe ser mayor a 2MB!",
+            text: "¡La imagen no debe ser mayor a 2MB!",
             type: "error",
             confirmButtonText: "¡Cerrar!"
         });

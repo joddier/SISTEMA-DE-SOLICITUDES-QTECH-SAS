@@ -193,7 +193,7 @@
 
             <div class="panel">Subir foto</div>
 
-            <input type="file" class="nuevaFoto" name="nuevaFoto">
+            <input type="file" class="nuevaFoto" name="editarFoto">
 
               <p class="help-block">Peso máximo de la foto 2 MB</p>
 
@@ -281,8 +281,11 @@
             <div class="form-group">
 
               <div class="input-group">
+
                 <span class="input-group-addon"><i class= "fa fa-lock"></i></span>
-                <input type="password" class="form-control input-lg" name="editarPassword" placeholder="Ingresar nueva contraseña" required>
+
+                <input type="password" class="form-control input-lg" name="editarPassword" placeholder="Ingresar nueva contraseña">
+
                 <input type="hidden" id="passwordActual" name="passwordActual">
               </div>
               
